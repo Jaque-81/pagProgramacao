@@ -9,5 +9,26 @@
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 2%;
+  display: flex;
 
+}
+
+header{
+  background-color: white;
+  padding: 20px 0;
+  border-bottom: 2px solid #499edf;
+}
+
+.logo{
+  color: #da49df;
+}
+
+.menu a{
+  color: #da49df;
+  font-size: 14px;
+  text-decoration: nome;
+}
+
+.menu a:hover{
+  color: rgb(34, 11, 238);
 }
