@@ -23,10 +23,23 @@ header{
   color: #da49df;
 }
 
+.logo h2{
+  font-weight: normal;
+  font-size: 24px;
+}
+
 .menu a{
   color: #da49df;
   font-size: 14px;
-  text-decoration: nome;
+  text-decoration-line: none;
+}
+
+.menu .btn-menu{
+  background-color: rgb(19, 128, 179);
+  display: inline-block;
+  padding: 6px 12px;
+  color: rgb(247, 134, 213);
+  border-radius: 8px;
 }
 
 .menu a:hover{
