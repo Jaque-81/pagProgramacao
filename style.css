@@ -16,8 +16,8 @@
 header{
   background-color: white;
   padding: 20px 0;
-  border-bottom: 2px solid #499edf;
-}
+  border-bottom: 1px solid rgb(200, 200, 200);
+} 
 
 .logo{
   color: #da49df;
@@ -28,10 +28,17 @@ header{
   font-size: 24px;
 }
 
+.menu{
+  width:80% ;
+  text-align: right;
+}
+
 .menu a{
   color: #da49df;
   font-size: 14px;
   text-decoration-line: none;
+  margin-right: 20px;
+  transition:0.6s;
 }
 
 .menu .btn-menu{
@@ -39,9 +46,10 @@ header{
   display: inline-block;
   padding: 6px 12px;
   color: rgb(247, 134, 213);
-  border-radius: 8px;
-}
+  border-radius: 9px;
+  }
 
 .menu a:hover{
-  color: rgb(34, 11, 238);
+  background-color: rgb(19, 145, 204);
+  color: rgb(247, 134, 213));
 }
