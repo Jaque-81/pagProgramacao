@@ -10,6 +10,7 @@
   margin: 0 auto;
   padding: 0 2%;
   display: flex;
+  flex-wrap: wrap;
 
 }
 
@@ -52,4 +53,45 @@ header{
 .menu a:hover{
   background-color: rgb(19, 145, 204);
   color: rgb(247, 134, 213));
+}
+
+/*
+Section main 
+ */
+
+ section.main{
+   background-image: url('image01.jpg');
+   min-height: 500px ;
+   background-position: center;
+   background-size: cover; 
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+
+ }
+
+.main__cta{
+  width: 100px;
+  text-align: center;
+  margin: 60 px 0;
+}
+
+.main__cta h2{
+  color: #da49df;
+  font-size: 40px;
+}
+
+.main__cta p{
+  color: gray;
+  font-size: 19px;
+  margin: 10px 0;
+}
+
+.main__cta button{
+background-color: rgb(19, 128, 179);
+  display: inline-block;
+  padding: 6px 12px;
+  color: rgb(247, 134, 213);
+  border-radius: 6px;
+  font-size: 22px; 
+  border: 0;
 }
