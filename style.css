@@ -44,7 +44,7 @@ header{
 }
 
 .menu .btn-menu{
-  background-color: rgb(19, 128, 179);
+  background-color: rgb(57, 165, 214);
   display: inline-block;
   padding: 6px 12px;
   color: rgb(247, 134, 213);
@@ -53,7 +53,7 @@ header{
 
 .menu a:hover{
   background-color: rgb(19, 145, 204);
-  color: rgb(247, 134, 213));
+  color: rgb(247, 134, 213);
 }
 
 /*
@@ -98,13 +98,40 @@ Section main
 
 .diferenciais{
   margin-top: 60px;
+  width: 150%;
   display: flex;
+  flex-wrap: wrap;
     
 }
 
 .diferencial-single{
   background-color: white;
+  border-radius: 10px;
   width: 23%;
   margin-right: 2%;
   padding: 50px 20px;
+}
+
+.diferencial-single i{
+  color: rgb(19, 128, 179);
+  font-optical-sizing: 23px;
+}
+
+.diferencial-single h2{
+  color: rgb(19, 128, 179);
+  margin: 10px 0;
+  font-size: 17px;
+}
+
+.diferencial-single p{
+  color: gray;
+  font-size: 14px;
+  line-height: 30px; 
+}
+
+@media screen and (max-width: 768px){
+  .diferencial-single{
+    width: 100%;
+    margin-bottom: 20px;
+    }
 }
